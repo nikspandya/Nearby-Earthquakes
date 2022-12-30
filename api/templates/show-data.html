@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>earthquakes</title>
+  </head>
+
+  <body>
+    <h2>10 Nearby location of earthquaks:</h2>
+    <br />
+    {% for item in data %}
+    <p>{{ item['place'] }} || {{ item['distance'] }} km.</p>
+    {% endfor %}
+  </body>
+</html>

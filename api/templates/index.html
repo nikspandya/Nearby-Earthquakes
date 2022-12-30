@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Home</title>
+  </head>
+
+  <body>
+    <form method="POST">
+      Latitude
+      <input
+        type="number"
+        name="latitude"
+        step="0.1"
+        min="-90"
+        max="90"
+        required
+      />
+      Longitude
+      <input
+        type="number"
+        name="longitude"
+        step="0.1"
+        min="-180"
+        max="180"
+        required
+      />
+      <input type="submit" value="Calculate" name="submit" />
+    </form>
+  </body>
+</html>
